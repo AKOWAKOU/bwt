@@ -19,4 +19,4 @@ services:
       - ./backend:/usr/app
       - ./backend/db.sqlite3:/usr/app/db.sqlite3 # Persist the SQLite database file
     environment:
-      - DJANGO_SETTINGS_MODULE=backend.config.settings
+      - DJANGO_SETTINGS_MODULE=config.settings

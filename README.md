@@ -194,4 +194,4 @@ To modify the two buttons in the Hero section, make changes in the ```frontend/s
 
 ## Copyright and License
 
-Copyright © 2022 Amor's Programming Academy. Code released under the MIT license.
+Copyright © 2024 Amor's Programming Academy. Code released under the MIT license.

@@ -1,5 +1,5 @@
 # Dockerfile pour le frontend
-FROM node:16 AS build
+FROM node:18 AS build
 
 # Définir le répertoire de travail
 WORKDIR /usr/app
@@ -18,8 +18,8 @@ RUN npm run build
 
 # Étape finale : servir avec un serveur léger
 FROM nginx:alpine
-COPY --from=build usr/app/build /usr/share/nginx/html
+COPY --from=build /usr/app/build /usr/share/nginx/html
 
-EXPOSE 8065
+EXPOSE 8060
 
 CMD ["nginx", "-g", "daemon off;"]
