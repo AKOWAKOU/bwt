@@ -2,14 +2,6 @@
 
 This is a business website template for a company built using **React 18** (with **TypeScript 4**), **Material UI 5**, **Django 4**, and **Django REST Framework 3**.
 
-### Dark mode:
-
-![plot](https://github.com/BobsProgrammingAcademy/business-website-template/blob/master/frontend/public/images/dark_theme.png?raw=true)
-
-### Light mode:
-
-![plot](https://github.com/BobsProgrammingAcademy/business-website-template/blob/master/frontend/public/images/light_theme.png?raw=true)
-
 ## Table of Contents 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -149,7 +141,10 @@ npm run test
 Add data through Django Admin.
 
 Go to http://127.0.0.1:8000/admin to access the Django Admin interface and sign in using the admin credentials.
-
+## Docker image
+    dcker compose up --build  # build the Docker image
+    Running backend in http://127.0.0.1:8000/admin    #build backenend
+    Running frontend in http://127.0.0.1:3000/       # build frontend
 ## Customize the application
 
 This section describes how to customize the application. 

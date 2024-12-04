@@ -55,7 +55,7 @@ const Sidebar = ({ open, onClose }: Props): JSX.Element => {
                     marginLeft: 1,
                   }}
                 >
-                  Bob's Company
+                  Amor's Company
                 </Typography>
               </IconButton>
             </Link>
